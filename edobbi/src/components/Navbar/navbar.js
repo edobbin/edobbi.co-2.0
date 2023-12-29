@@ -3,7 +3,10 @@ import React from 'react'
 function navbar() {
   return (
     <div className='navbar'>
-    <a href='javascript:void(0)' className='closeBar' onClick='closeNav()'></a>
+    <div className='Title-container'>
+      {/* <img></img> */}
+      
+    </div>
     <ul>
       <li>
         Home
