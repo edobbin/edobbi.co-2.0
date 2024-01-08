@@ -1,26 +1,21 @@
 import React from 'react'
+import './navbar.css'
 
-function navbar() {
+const navbar = (props) => {
   return (
     <div className='navbar'>
     <div className='Title-container'>
       {/* <img></img> */}
       
     </div>
-    <ul>
-      <li>
-        Home
-      </li>
-      <li>
-        About me
-      </li>
-      <li>
-        Projects
-      </li>
-      <li>Resume</li>
-    </ul>
+    <div className='sidebar'>
+      <a href='#section'>About</a>
+      <a href='#section'>Projects</a>
+      <a href='#section'>Resume</a>
+      <a href='#section'>Blog</a>
+    </div>
       </div>
-  )
-}
+  );
+};
 
 export default navbar;

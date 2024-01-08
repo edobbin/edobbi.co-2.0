@@ -1,15 +1,30 @@
-.navbar{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
+.sidebar{
+    transition: .5s;
+    overflow-x: hidden;
+    padding-top: 60px;
     top: 0;
     left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    gap: 20px;
+    z-index: -1;
 }
-.navbar ul{
-    list-style: none;
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    color: aliceblue;
+}
+
+.sidebar a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+.nav-open{
+    left: -320px;
 }
