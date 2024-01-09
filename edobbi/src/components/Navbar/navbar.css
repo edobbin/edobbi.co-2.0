@@ -1,5 +1,5 @@
 .sidebar{
-    transition: .5s;
+    transition: .5s ease-in-out;
     overflow-x: hidden;
     padding-top: 60px;
     top: 0;
@@ -11,20 +11,58 @@
     width: 150px;
     height: 100%;
     position: fixed;
-    gap: 20px;
+    
     z-index: -1;
 }
 .sidebar a{
-    display: block;
+    display: flex;
     text-decoration: none;
-    padding: 8px 8px 8px 8px;
+    padding: 10px 60px;
     color: aliceblue;
+    text-align: center;
 }
 
 .sidebar a:hover{
     background-color: rgba(0, 0, 0, 0.2);
     
 }
+.nav-Tog{
+    display: flex;
+    align-items: center;
+
+border: none;
+padding: 10px 15px;
+background-color: transparent;
+color: aliceblue;
+
+
+}
 .nav-open{
+    left: 0px;
+}
+.nav-close{
     left: -320px;
+}
+
+.linkText {
+    padding-left: 16px;
+}
+ 
+.linkTextClosed {
+    
+    visibility: hidden;
+}
+.sidebarClosed{transition: 0.5s ease-out;
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 100%;
+    position: fixed;
+    
+    width: 60px
+}
+.sidebarClosed a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    text-align: center;
 }
