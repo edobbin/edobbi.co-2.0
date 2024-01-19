@@ -14,17 +14,18 @@ const home = () => {
       </div>
       <div className='pfpCard'>
       <Pfp/>
-
+    <div className='social-back'>
       <div className='socials'>
         {/* Socials */}
-        <a href='https://www.linkedin.com/in/ethan-dobb/'><FaLinkedin /></a>
+        <a href='https://www.linkedin.com/in/ethan-dobb/'><FaLinkedin size={35} color='Black'/></a>
       
-        <a href=''><FaGithub/></a>
+        <a href='https://github.com/edobbin'><FaGithub size={35} color='Black' /></a>
 
-        <a href=''><FaInstagram /></a>
+        <a href='https://www.instagram.com/codewith.dob/?hl=en'><FaInstagram size={35} color='Black'/></a>
 
-        <a href='mailto:dobbincode@gmail.com'><CiMail/></a>
+        <a href='mailto:dobbincode@gmail.com'><CiMail size={35} color='Black'/></a>
       
+      </div>
       </div>
       </div>
         </div>

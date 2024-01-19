@@ -8,6 +8,28 @@
     border-top-left-radius: 50%;
     border-top-right-radius:50%;
     width: 80%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+overflow: visible;
+}
+.socials{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.social-back{
+    background: rgb(0, 217, 255);
+    width: 80%;
+    border-radius: 10%;
+    justify-content: center;
+}
+.socials a{
+    
+margin-left: 10px;
+margin-right: 10px;
 }
 
 .title-name{
@@ -21,6 +43,7 @@
 .title-name h2{
     color: white;
     margin-top: 10px;
+    font-family: cursive;
 }
 
 @media screen and (max-width: 800px) {
