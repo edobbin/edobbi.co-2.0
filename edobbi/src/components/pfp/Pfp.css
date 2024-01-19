@@ -1,0 +1,14 @@
+
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    outline: 5px;
+    outline-style: solid;
+    outline-offset: 2px;
+    outline-color: azure;
+    box-shadow: 10px;
+}
+.imga{
+    width:min-content;
+    display: inline-block;
+}

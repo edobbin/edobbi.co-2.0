@@ -1,11 +1,12 @@
 import React from 'react'
 import pfp from "./pfp.jpg"
+import './Pfp.css'
 
-
-export const Pfp = () => {
+const Pfp = () => {
   return (
-    <div>
+    <div className='imga'>
         <img src={pfp} alt='Ethan' width="auto" height="300" className='pfp'/>
     </div>
   )
 }
+export default Pfp;

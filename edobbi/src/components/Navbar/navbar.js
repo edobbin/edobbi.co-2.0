@@ -13,6 +13,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
+      <nav>
     <div className='Title-container'>
       {/* <img></img> */}
       
@@ -37,7 +38,7 @@ const Navbar = () => {
       <a href='#section'>Resume</a>
       <a href='#section'>Blog</a> */}
     </div>
-    {/* </nav> */}
+    {/* </nav> */}</nav>
       </div>
   );
 };

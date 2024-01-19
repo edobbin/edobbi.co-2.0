@@ -15,13 +15,13 @@ export const navData = [
         id: 1,
         icon: <About/>,
         text: "About",
-        link: "explore"
+        link: ""
     },
     {
         id: 2,
         icon: <Project/>,
         text: "Projects",
-        link: "statistics"
+        link: ""
     },
     {
         id: 3,

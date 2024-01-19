@@ -1,0 +1,31 @@
+.container{
+    margin-left: 20%;
+}
+
+.pfpCard{
+    background-color: aliceblue;
+    display: inline-block;
+    border-top-left-radius: 50%;
+    border-top-right-radius:50%;
+    width: 80%;
+}
+
+.title-name{
+
+}
+.title-name p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.title-name h2{
+    color: white;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        margin-left: 500px;
+    }
+    
+}
