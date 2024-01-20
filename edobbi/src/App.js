@@ -10,6 +10,7 @@ function App() {
     <Nav name = 'dob'/> 
     <div className='container'>
     <Home/>
+    <About />
     
       
     </div>

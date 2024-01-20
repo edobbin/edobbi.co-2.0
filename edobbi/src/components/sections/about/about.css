@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.containerA{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    justify-content: space-around;
+}
+.AM{
+    text-align:start;
+    font-size: 24px;
+    line-height: 34px;
+}
+.title{
+    color: rgb(0, 0, 0);
+    text-shadow: white 0px 0px 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 80px;
+    text-align: left;
+}
+.skills{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.skills ul{
+    list-style: none;
+}
+.skill_title{
+    font-size: 25px;
+    text-align: center;
+}
+
+.languages{
+    margin: 20px;
+}
+.LanF{
+    margin: 20px;
+}
+
+.Tools{
+    margin: 20px;
+}
