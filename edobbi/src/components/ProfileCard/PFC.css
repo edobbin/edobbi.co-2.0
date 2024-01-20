@@ -1,0 +1,42 @@
+.pfpCard {
+    background-color: rgba(240, 248, 255, 0.253);
+    display: inline-block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    width: 320px;
+
+    overflow: visible;
+}
+
+.socials {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-back {
+    background: rgb(114, 114, 114);
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+}
+
+.socials a {
+
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+}
+.socials a::hover {
+
+    color: rgba(0, 0, 0, 0.342);
+ 
+}
+
