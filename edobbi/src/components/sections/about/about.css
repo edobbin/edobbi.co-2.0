@@ -30,6 +30,8 @@
 }
 .skills ul{
     list-style: none;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 .skill_title{
     font-size: 25px;
@@ -37,12 +39,12 @@
 }
 
 .languages{
-    margin: 20px;
+    margin: 30px;
 }
 .LanF{
-    margin: 20px;
+    margin: 30px;
 }
 
 .Tools{
-    margin: 20px;
+    margin: 30px;
 }

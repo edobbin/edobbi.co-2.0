@@ -32,7 +32,8 @@ const about = () => {
         <div className='Tools'>
           <h4 className='skill_title'>Tools</h4>
           <ul>
-            <li>Firebare Realtime Database</li>
+            <li>Firebase FireStore Database</li>
+            <li>Firebase Realtime Database</li>
             <li>AWS EC2</li>
             <li>Github</li>
             <li>Git</li>
