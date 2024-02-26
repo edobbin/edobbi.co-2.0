@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
 
-    <Nav name = 'dob'/> 
+    {/* <Nav name = 'dob'/>  */}
     <div className='container'>
     <Home/>
     <About />
