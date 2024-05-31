@@ -9,11 +9,14 @@
     margin-bottom: 10%;
     display: flex;
     justify-content: space-around;
+
+    outline: auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.596);
 }
 
 
 .title-name{
-font-family: cursive;
 padding: 20px;
 }
 .title-name p, h4{
@@ -31,14 +34,21 @@ padding: 20px;
 }
 
 .title-name h2{
-    color: rgb(0, 0, 0);
-    text-shadow: white 0px 0px 3px;
+    color: rgb(255, 255, 255);
+    
     margin-top: 10px;
     
     
-    font-size: 100px;
+    font-size: 6rem;
+    font-weight: 800;
+}
+.links{
+display: flex;
 }
 
+.links a{
+    margin-left: 10px;
+}
 
 @media screen and (max-width: 800px) {
     .container{
