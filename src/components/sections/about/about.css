@@ -4,10 +4,23 @@
     padding: 0;
 }
 .containerA{
-    margin-top: 10%;
+    margin-top: 0%;
     margin-bottom: 10%;
-    
+   
     justify-content: space-around;
+    display: flex;
+    outline: auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.title h2{
+    color: rgb(255, 255, 255);
+    
+    margin-top: 10px;
+    
+    
+    font-size: 6rem;
+    font-weight: 800;
 }
 .AM{
     text-align:start;
@@ -15,12 +28,12 @@
     line-height: 34px;
 }
 .title{
-    color: rgb(0, 0, 0);
-    text-shadow: white 0px 0px 3px;
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 80px;
     text-align: left;
+    padding: 20px;
 }
 .skills{
     color: white;
@@ -48,3 +61,52 @@
 .Tools{
     margin: 30px;
 }
+
+/* @media (max-width: 1120px) {
+    .containerA{
+     margin: 20px;
+     width: 850px;
+    }
+    .title-name h2{
+        font-size: 3rem;
+        font-weight: 800;
+        justify-content: left;
+        text-align: left;
+    }
+    .title-name h4{
+        font-size: 24px;
+    }
+    .title-name p, h4{
+        color: rgb(255, 255, 255);
+        text-align: left;
+        margin-bottom: 10px;
+        justify-content: left;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 880px) {
+    .containerA{
+     margin: 20px;
+    }
+    .title-name h2{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .title-name h4{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 640px) {
+    .containerA{
+     margin: 20px;
+    }
+    .title-name h2{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .title-name h4{
+        font-size: 24px;
+    }
+} */

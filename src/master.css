@@ -1,14 +1,31 @@
 .container{
-    width: 65%;
-    margin: 0px auto;
+    width: 150ch;
+    min-height: 100vh;
+    margin: 10% auto;
     display: block;
     position: relative;
-  
+    justify-content: center;
+    align-items: center;
+    overflow: visible; 
+     
   }
 
-  @media screen and (max-width: 900px) {
+  @media (max-width: 1120px) {
     .container{
-        width: 100%;
+      width: 100ch;
+      position: relative;
     }
-    
-}
+  }
+  @media (max-width: 900px) {
+    .container{
+      width: 60ch;
+      position: relative;
+    }
+  }
+    @media (max-width: 640px) {
+      .container{
+        width: 100ch;
+        position: relative;
+        
+      }
+    } 

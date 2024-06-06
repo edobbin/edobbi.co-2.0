@@ -33,10 +33,6 @@ const Navbar = () => {
         <a href='#section'>{navOpen ? item.text : item.icon}</a>
       </div>   
     })}
-      {/* <a href='#section'>About</a>
-      <a href='#section'>Projects</a>
-      <a href='#section'>Resume</a>
-      <a href='#section'>Blog</a> */}
     </div>
     {/* </nav> */}</nav>
       </div>
