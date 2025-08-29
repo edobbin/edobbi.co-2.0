@@ -9,19 +9,6 @@ const ProfileCard = () => {
         <div>
             <div className='pfpCard'>
       <Pfp/>
-    {/*<div className='social-back'>
-      <div className='socials'>
-        {/*8 Socials /}
-        <a href='https://www.linkedin.com/in/ethan-dobb/'><FaLinkedin size={35} color='White'/></a>
-      
-        <a href='https://github.com/edobbin'><FaGithub size={35} color='White' /></a>
-
-        <a href='https://www.instagram.com/codewith.dob/?hl=en'><FaInstagram size={35} color='White'/></a>
-
-        <a href='mailto:dobbincode@gmail.com'><CiMail size={35} color='White' stroke='white' /></a>
-      
-      </div>
-      </div> */}
       </div>
         </div>
     );

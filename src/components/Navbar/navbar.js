@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { navData } from "./navData"
+import { Link } from "react-router-dom"
 import './navbar.css'
 
 
@@ -30,7 +31,7 @@ const Navbar = () => {
     {navData.map(item =>{
       return <div key={item.id}>
         
-        <a href='#section'>{navOpen ? item.text : item.icon}</a>
+        <a href={item.link}>{navOpen ? item.text : item.icon}</a>
       </div>   
     })}
     </div>

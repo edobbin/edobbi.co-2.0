@@ -9,13 +9,13 @@ export const navData = [
         id: 0,
         icon: <HomeIcon/>,
         text: "Home",
-        link: "/"
+        link: "/home"
     },
     {
         id: 1,
         icon: <About/>,
         text: "About",
-        link: ""
+        link: "/about"
     },
     {
         id: 2,
