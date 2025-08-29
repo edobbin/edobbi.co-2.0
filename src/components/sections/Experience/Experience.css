@@ -1,0 +1,37 @@
+/* *{
+box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+} */
+
+.vertical-timeline-element-icon svg {
+    position: absolute;
+}
+.containerE{
+    
+
+}
+.dateClass{
+    
+}
+.vertical-timeline-element-date {
+    font-size: larger;
+}
+.custom-timeline-element{
+    align-items: center;
+}
+.vertical-timeline-element-subtitle {
+  font-size: 16px !important;  
+  color: black !important;
+  font-weight: bold;        
+  margin-top: 4px;
+  text-align: center;            
+}
+
+.vertical-timeline-element-summary{
+  font-size: 15px !important;  
+  color: black !important;
+  font-weight: normal;        
+  margin-top: 4px;     
+}

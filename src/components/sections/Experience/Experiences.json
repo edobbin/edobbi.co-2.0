@@ -1,0 +1,39 @@
+[
+    {
+    "id":1,
+    "type":"education",
+    "title": "B.S. Computer Science",
+    "company": "Towson University",
+    "location": "Towson, MD",
+    "startDate": "2021",
+    "endDate": "2025",
+    "icon": "education"
+},
+{
+    "id":2,
+    "type": "work",
+    "title": "IT Student Trainee",
+    "company": "Food and Drug Administration (FDA)",
+    "summary": "Utilized ServiceNow to develop software features to improve efficiency of department operations. Conducted PC Refreshes supporting a customer base of over 6,000 federal empployees ensuring minimal downtime.",
+    "startDate":"06/2024",
+    "endDate": "05/2025",
+    "location": "Rockville, MD",
+    "skills":["HTML", "JavaScript", "ServiceNow", "Agile"],
+    "icon": "work | education | project | leadership"
+
+},
+{
+    "id":3,
+    "type": "work",
+    "title": "Undergraduate Student Researcher (Baltimore Data Science Corps)",
+    "company": "National Science Foundation (NSF)",
+    "summary": "Utilized ServiceNow to develop software features to improve efficiency of department operations. Conducted PC Refreshes supporting a customer base of over 6,000 federal empployees ensuring minimal downtime.",
+    "startDate":"08/2024",
+    "endDate": "05/2025",
+    "location": "Towson, MD",
+    "skills":["Python", "Machine Learning", "NumPy", "Pandas"],
+    "icon": "work | education | project | leadership"
+
+}
+
+]
