@@ -72,3 +72,8 @@ color: aliceblue;
     color: aliceblue;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+
+    
+}
