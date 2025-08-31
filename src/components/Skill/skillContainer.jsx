@@ -5,7 +5,6 @@ import Skill from './Skill'
 const skillContainer = () => {
   return (
     <div>
-
 {
         SkillData.map(item =>{
          return <Skill skill ={item} />

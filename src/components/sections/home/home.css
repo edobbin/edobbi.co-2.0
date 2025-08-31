@@ -10,7 +10,7 @@
     display: flex;
     width: auto;
     justify-content: space-around;
-
+    text-align: center;
     outline: auto;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.596);
@@ -45,10 +45,12 @@ padding: 20px;
 }
 .links{
 display: flex;
+margin-right: 10;
 }
 
 .links a{
     margin-left: 10px;
+    margin-right: 10px;
 }
 @media screen and (max-width: 1120px) {
     .containerH{

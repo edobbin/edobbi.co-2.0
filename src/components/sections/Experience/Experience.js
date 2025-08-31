@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import data from './Experiences.json'
 import { IoSchool } from "react-icons/io5";
 import { MdOutlineWork } from "react-icons/md";
-import './Experience.css'
+import './experience.css';
 export const Experience = () => {
   return (
     <div className='containerE'>
@@ -18,7 +18,7 @@ export const Experience = () => {
               return(
               <VerticalTimelineElement
               key={item.id}
-              className="custom-timeline-element"
+              
               icon ={<IoSchool size={20} />}
               iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff'}}
               date={`${item.startDate} - ${item.endDate}`}>
@@ -33,10 +33,12 @@ export const Experience = () => {
               return(
               <VerticalTimelineElement
               key={item.id}
+              
               icon ={<MdOutlineWork size={20} />}
               iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
               date={`${item.startDate} - ${item.endDate}`}
-              dateClassName={ "dateClass" }>
+              dateClassName={ "vertical-timeline-element-date" }
+              >
                 <h3 className="vertical-timeline-element-title">{item.company}</h3>
                 <h4 className="vertical-timeline-element-subtitle">{item.title}</h4>
                 <br />
