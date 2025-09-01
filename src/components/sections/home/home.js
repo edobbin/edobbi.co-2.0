@@ -14,7 +14,7 @@ const home = () => {
             <h2>Ethan Dobbin</h2>
             <h4>&lt;
                 <ReactTypingEffect
-                text={["Computer Science Student","FDA Student Trainee","Developer.","Lifelong Learner","Engineer."]}
+                text={["Computer Science Graduate","Developer.","Lifelong Learner","Engineer."]}
                 speed={100}
                 eraseSpeed={50}
                 />&gt;
