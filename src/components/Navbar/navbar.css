@@ -75,7 +75,18 @@ color: aliceblue;
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+/* Tablets (portrait and landscape) */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
 
-    
+/* Mobile phones */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
