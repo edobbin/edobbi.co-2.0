@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import data from "./Experiences.json";
 import { IoSchool } from "react-icons/io5";
 import { MdOutlineWork } from "react-icons/md";
-import "./experience.css";
+import "./Experience.css";
 export const Experience = () => {
   return (
     <div className="containerE">
