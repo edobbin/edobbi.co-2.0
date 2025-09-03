@@ -9,7 +9,7 @@
     margin-bottom: 10%;
     right: auto;
     justify-content: space-around;
-    display: flex;
+    display: flexbox;
     align-items: stretch;
     outline: auto;
     border-radius: 5px;

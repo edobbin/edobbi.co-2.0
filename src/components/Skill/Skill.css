@@ -1,6 +1,6 @@
 .Skill-Container{
-display: -webkit-box;
-display: -webkit-flex;
+display: flex;
+width: auto;
 
 gap: 5px;
 color: white;
@@ -13,8 +13,13 @@ align-content: center;
 justify-content: center;
 flex-direction: row;
 }
+.Skill-Grid{
+    display: grid;
+   grid-template-columns: repeat(6, minmax(200px, .5fr)); 
+}
+
 
 .Skill-Container:hover {
     background-color: white ;
-    color: rgb(75, 75, 75);
+    color: rgb(36, 36, 36);
 }

@@ -1,19 +1,20 @@
-import React from 'react'
-import SkillData from './SkillData'
-import Skill from './Skill'
+import React from "react";
+import SkillData from "./SkillData";
+import Skill from "./Skill";
+import './Skill.css'
 
 const skillContainer = () => {
   return (
-    <div>
-{
-        SkillData.map(item =>{
-         return <Skill skill ={item} />
-        })
-              
-        }
-    </div>
+    <div className="Skill-Grid" >
+      
+      {SkillData.map((item, id) => (
+        <div>
+        <Skill key={id} skill={item} />
+        </div>
+      ))}
     
-  )
-}
+    </div>
+  );
+};
 
-export default skillContainer
+export default skillContainer;
