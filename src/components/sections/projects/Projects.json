@@ -1,17 +1,22 @@
 [
-    {
-    "id":1,
+  {
+    "id": 1,
     "project-Name": "Crime Rate Predictor",
     "project-Desc": "The goal of this project is to utilize machine learning tools, and algorithms to observe crime rate trends in Baltimore City.",
-    "skills":[
-        "Python",
-        "Pandas",
-        "Matplotlib"
-    ],
-    "links":{
-        "Github": "vdfw",
-        "Project-Page": ""
+    "skills": ["Python", "Pandas", "Matplotlib"],
+    "links": {
+      "Github": "https://github.com/edobbin/OpenAi-console-resume-analyzer",
+      "Project-Page": "https://ai-research-bice.vercel.app/"
     }
-}
-
+  },
+  {
+    "id": 2,
+    "project-Name": "Tech-Q Discussion Board",
+    "project-Desc": "The goal of this project is to utilize machine learning tools, and algorithms to observe crime rate trends in Baltimore City.",
+    "skills": ["Python", "Pandas", "Matplotlib"],
+    "links": {
+      "Github": "https://github.com/edobbin/OpenAi-console-resume-analyzer",
+      "Project-Page": "https://ai-research-bice.vercel.app/"
+    }
+  }
 ]
