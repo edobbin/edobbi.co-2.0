@@ -18,5 +18,35 @@
       "Github": "https://github.com/edobbin/TechQ",
       "Project-Page": ""
     }
+  },
+  {
+    "id": 2,
+    "project-Name": "MyATS (In Progress)",
+    "project-Desc": "MyATS is a platform that allows the user to submit their resume and description for a job and uses LLMs to process and provide feedback.",
+    "skills": ["Python", "Flask", "Gemini"],
+    "links": {
+      "Github": "https://github.com/edobbin/OpenAi-console-resume-analyzer",
+      "Project-Page": ""
+    }
+  },
+
+  {
+    "id": 3,
+    "project-Name": "Resturant Management System",
+    "project-Desc": "Resturant management backend system designed utilizing object orientated programming principles inorder to build a more efficient system for taking and adding to orders.",
+    "skills": ["Java", "OOP"],
+    "links": {
+      "Github": "https://github.com/edobbin/TechQ",
+      "Project-Page": ""
+    }
+  },{
+    "id": 4,
+    "project-Name": "MtWashinton Tavern System",
+    "project-Desc": "A desktop database management system built in Java for Mt. Washington Tavern, designed to manage restaurant operations including staff, orders, and menu items through an intuitive GUI.",
+    "skills": ["Java", "GUI", "MySQL"],
+    "links": {
+      "Github": "https://github.com/edobbin/MtWashintonTavernGUI",
+      "Project-Page": ""
+    }
   }
 ]
