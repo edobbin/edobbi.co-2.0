@@ -10,8 +10,7 @@ import './master.css'
 function App() {
   return (
     <div className="App">
-    <Nav />
-    {/* <Nav name = 'dob'/>  */}
+    {/* <Nav /> */}
     <div className='container'>
     <Background />
     <Home/>

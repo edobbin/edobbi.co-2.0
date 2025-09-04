@@ -17,7 +17,6 @@ export const ProjectCard = ( {project}) => {
         ))}
 
         </div>
-        {/* Links */}
       {/* Links */}
       <div className="project-links">
         {project.links["Github"] && project.links["Github"].trim() !== "" && (
