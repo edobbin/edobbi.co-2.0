@@ -6,11 +6,11 @@ const project = () => {
     return (
         <div className="containerP">
             <div className='Project-Grid'>
-            <div>
+            
       {data.map(obj => 
         <ProjectCard key={obj.id} project={obj} />
       )}
-      </div>
+      
         </div>
     </div>
   );

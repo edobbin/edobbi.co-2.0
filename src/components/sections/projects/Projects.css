@@ -2,7 +2,7 @@
 box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
-    align-items: center;
+    
 }
 
 .containerP{
@@ -12,7 +12,6 @@ box-sizing: border-box;
     padding: 10px;
     right: auto;
     justify-content: space-around;
-    display: flex;
     align-items: stretch;
     outline: auto;
     border-radius: 5px;
@@ -20,18 +19,21 @@ box-sizing: border-box;
     gap: 10px;
     
 }
-.Project-Grid{
+.Project-Grid{ 
     display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(400px, .5fr)); 
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, .25fr));
+    gap: 16px; 
+    margin: auto;
 }
 .Projct_Card{
     padding: 20px;
-    max-width: 500px;
+    max-width: 300px;
+    height: 200px;    
     background-color: rgb(114, 114, 114);
     border-radius: 15px;
-    
-
-}
+    text-align: center;
+    }
 
 .project-Name{
     color: white;

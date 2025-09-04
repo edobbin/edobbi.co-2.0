@@ -5,18 +5,18 @@
     "project-Desc": "The goal of this project is to utilize machine learning tools, and algorithms to observe crime rate trends in Baltimore City.",
     "skills": ["Python", "Pandas", "Matplotlib"],
     "links": {
-      "Github": "https://github.com/edobbin/OpenAi-console-resume-analyzer",
+      "Github": "https://github.com/edobbin/AI-Research",
       "Project-Page": "https://ai-research-bice.vercel.app/"
     }
   },
   {
     "id": 2,
     "project-Name": "Tech-Q Discussion Board",
-    "project-Desc": "The goal of this project is to utilize machine learning tools, and algorithms to observe crime rate trends in Baltimore City.",
-    "skills": ["Python", "Pandas", "Matplotlib"],
+    "project-Desc": "Discussion board website used to post questions regarding homework assignments.",
+    "skills": ["JavaScript", "React", "FireStore"],
     "links": {
-      "Github": "https://github.com/edobbin/OpenAi-console-resume-analyzer",
-      "Project-Page": "https://ai-research-bice.vercel.app/"
+      "Github": "https://github.com/edobbin/TechQ",
+      "Project-Page": ""
     }
   }
 ]
